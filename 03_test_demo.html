@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 1366px;
+            height: 600px;
+            margin: 0 auto;
+            background-image: url(./OIP-C.jpg);
+            /*background-color: #0ff;*/
+
+        }
+
+        /* 左右相同的样式*/
+        .box::before,
+        .box::after {
+            content: '';
+            width: 50%;
+            height: 600px;
+            background-image: url(./OIP-C\ \(2\).jpg);
+            transition: all .5s;
+
+        }
+
+        /* 单独控制after的背景图位置 */
+        .box::after {
+            background-position: right 0;
+        }
+
+        /*鼠标移入box,defter向左移动100%*/
+        .box:hover::before {
+            transform: translate(-100%);
+        }
+
+        /*鼠标移入box,after右侧移动*/
+        .box:hover::after {
+            transform: translateX(100%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 手写2个div,用css伪元素before after加标签也可以 -->
+
+    </div>
+</body>
+
+</html>
