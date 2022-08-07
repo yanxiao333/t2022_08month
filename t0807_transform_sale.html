@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>缩放案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .box {
+            width: 249px;
+            height: 210px;
+            margin: 50px auto;
+            /*超出父级的隐藏*/
+
+            overflow: hidden;
+        }
+
+        .box p {
+            color: #3b3b3b;
+            padding: 10px 10px 0 10px;
+        }
+
+        .box .pic {
+            position: relative;
+        }
+
+        /*1.播放按钮盒子,压在img标签的上面(用定位)
+           2.hover的时候缩放效果
+           3.鼠标移入哪里--那个li,即让个标签发现变化
+        */
+        .box .pic::after {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -59px;
+            margin-top: -104px;
+
+            content: '';
+            width: 132px;
+            height: 140px;
+            background-image: url(./images/ehXhnLTNew1.jpg);
+            transform: scale(5);
+            opacity: 0;
+            transition: all .5s;
+        }
+
+        .box li:hover .pic::after {
+            opacity: 1;
+            transform: scale(1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="pic">
+                    <img src="../t2022_07month/xtx-pc-client/images/popular_1.jpg" alt="">
+                    <!-- 伪元素添加播放按钮 -->
+                    <p>和平精英:音乐概念片</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
