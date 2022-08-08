@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3575149 */
+  src: url('iconfont.woff2?t=1659947019329') format('woff2'),
+       url('iconfont.woff?t=1659947019329') format('woff'),
+       url('iconfont.ttf?t=1659947019329') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "\ed4e";
+}
+
+.icon-arrow-left:before {
+  content: "\ed4f";
+}
+
+.icon-arrow-down:before {
+  content: "\ed50";
+}
+
+.icon-add-location:before {
+  content: "\ed51";
+}
+
+.icon-bell:before {
+  content: "\ed52";
+}
+
+.icon-bottom-left:before {
+  content: "\ed53";
+}
+
+.icon-box:before {
+  content: "\ed54";
+}
+
+.icon-caret-right:before {
+  content: "\ed55";
+}
+
+.icon-bicycle:before {
+  content: "\ed56";
+}
+
+.icon-caret-top:before {
+  content: "\ed57";
+}
+
+.icon-camera:before {
+  content: "\ed58";
+}
+
+.icon-arrow-up:before {
+  content: "\ed59";
+}
+
+.icon-caret-left:before {
+  content: "\ed5a";
+}
+
+.icon-close:before {
+  content: "\ed5b";
+}
+
+.icon-collection:before {
+  content: "\ed5c";
+}
+
+.icon-circle-check:before {
+  content: "\ed5d";
+}
+
+.icon-caret-bottom:before {
+  content: "\ed5e";
+}
+
+.icon-bottom:before {
+  content: "\ed5f";
+}
+
+.icon-chat-line-square:before {
+  content: "\ed60";
+}
+
+.icon-bottom-right:before {
+  content: "\ed61";
+}
+
+.icon-back:before {
+  content: "\ed62";
+}
+
+.icon-chat-round:before {
+  content: "\ed63";
+}
+
+.icon-circle-plus-outline:before {
+  content: "\ed64";
+}
+
+.icon-bank-card:before {
+  content: "\ed65";
+}
+
+.icon-alarm-clock:before {
+  content: "\ed66";
+}
+
+.icon-camera-solid:before {
+  content: "\ed67";
+}
+
+.icon-discover:before {
+  content: "\ed68";
+}
+
+.icon-delete-solid:before {
+  content: "\ed69";
+}
+
+.icon-date:before {
+  content: "\ed6a";
+}
+
+.icon-d-arrow-right:before {
+  content: "\ed6b";
+}
+
+.icon-download:before {
+  content: "\ed6c";
+}
+
+.icon-collection-tag:before {
+  content: "\ed6d";
+}
+
+.icon-folder:before {
+  content: "\ed6e";
+}
+
+.icon-document-remove:before {
+  content: "\ed6f";
+}
+
+.icon-first-aid-kit:before {
+  content: "\ed70";
+}
+
+.icon-chat-dot-square:before {
+  content: "\ed71";
+}
+
+.icon-circle-close:before {
+  content: "\ed72";
+}
+
+.icon-coordinate:before {
+  content: "\ed73";
+}
+
+.icon-circle-plus:before {
+  content: "\ed74";
+}
+
+.icon-check:before {
+  content: "\ed75";
+}
+
+.icon-film:before {
+  content: "\ed76";
+}
+
+.icon-goods:before {
+  content: "\ed77";
+}
+
+.icon-cherry:before {
+  content: "\ed78";
+}
+
+.icon-data-analysis:before {
+  content: "\ed79";
+}
+
+.icon-edit:before {
+  content: "\ed7a";
+}
+
+.icon-chat-dot-round:before {
+  content: "\ed7b";
+}
+
+.icon-edit-outline:before {
+  content: "\ed7c";
+}
+
+.icon-goblet-square:before {
+  content: "\ed7d";
+}
+
+.icon-delete:before {
+  content: "\ed7e";
+}
+
+.icon-more:before {
+  content: "\ed7f";
+}
+
+.icon-location:before {
+  content: "\ed80";
+}
+
+.icon-mobile-phone:before {
+  content: "\ed81";
+}
+
+.icon-mic:before {
+  content: "\ed82";
+}
+
+.icon-loading:before {
+  content: "\ed83";
+}
+
+.icon-key:before {
+  content: "\ed84";
+}
+
+.icon-message:before {
+  content: "\ed85";
+}
+
+.icon-link:before {
+  content: "\ed86";
+}
+
+.icon-files:before {
+  content: "\ed87";
+}
+
+.icon-news:before {
+  content: "\ed88";
+}
+
+.icon-male:before {
+  content: "\ed89";
+}
+
+.icon-female:before {
+  content: "\ed8a";
+}
+
+.icon-delete-location:before {
+  content: "\ed8b";
+}
+
+.icon-microphone:before {
+  content: "\ed8c";
+}
+
+.icon-mobile:before {
+  content: "\ed8d";
+}
+
+.icon-minus:before {
+  content: "\ed8e";
+}
+
+.icon-message-solid:before {
+  content: "\ed8f";
+}
+
+.icon-plus:before {
+  content: "\ed90";
+}
+
+.icon-orange:before {
+  content: "\ed91";
+}
+
+.icon-notebook-1:before {
+  content: "\ed92";
+}
+
+.icon-trophy:before {
+  content: "\ed93";
+}
+
+.icon-truck:before {
+  content: "\ed94";
+}
+
+.icon-unlock:before {
+  content: "\ed95";
+}
+
