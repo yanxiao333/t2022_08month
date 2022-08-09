@@ -34,6 +34,8 @@ img {
     width: 350px;
     height: 247px;
     margin-right: 30px;
+    /* 溢出隐藏 */
+    overflow: hidden;
 }
 
 .box li:last-child {
@@ -99,4 +101,19 @@ img {
 
 .box li:hover a::after {
     opacity: 1;
+}
+
+/* 图片缩放效果 */
+.box li .pic img {
+    transition: all 0.5s;
+}
+
+.box li:hover .pic img {
+    transform: scale(1.2);
+}
+
+/* 文字上移效果.通过给.txt加hover使文字整体上移 */
+.box li:hover .txt {
+    transform: translateY(-50px);
+
 }
