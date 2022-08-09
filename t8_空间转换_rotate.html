@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>空间转换</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            background-color: #f0f;
+
+        }
+
+        img {
+            width: 400px;
+            transition: all 2s;
+        }
+
+        .box {
+            position: relative;
+            /* 透视效果:近大远小,近实远虚 */
+            perspective: 1000px;
+        }
+
+        .box img:hover {
+            transform: rotateY(90deg);
+        }
+
+        .box span {
+            opacity: 0;
+            position: absolute;
+            left: 50px;
+            top: 100px;
+            /* content: ""; */
+            font-size: 45px;
+            font-weight: 800;
+            color: #fff;
+            transition: all 2.5s;
+        }
+
+        /* .box span:hover {
+            font-size: 35px;
+        } */
+
+        .box:hover span {
+            opacity: 1;
+            transform: translate(0, 100px);
+            /* background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)); */
+
+            )
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="../t2022_07month/xtx-pc-client/images/new_goods_2.jpg" alt="">
+        <span>我爱我家</span>
+    </div>
+</body>
+
+</html>
