@@ -18,9 +18,12 @@
             line-height: 40px;
             transition: all 0.5s;
             transform-style: preserve-3d;
-            /* 旋转:让大家在写代码的过程中看到立体盒子 */
-            transform: rotateX(20deg) rotateY(30deg);
         }
+
+        /* 旋转:让大家在写代码的过程中看到立体盒子 */
+        /* transform: rotateX(20deg) rotateY(30deg);*/
+
+
 
         .navs li a {
             display: block;
@@ -33,11 +36,18 @@
 
         .navs li a:first-child {
             background-color: green;
+            transform: rotateZ(20px);
 
         }
 
         .navs li a:last-child {
-            background-color: #ff0;
+            background-color: #f00;
+            transform: rotateX(90deg) translateZ(20px);
+        }
+
+        /* li:hover 立方体旋转 */
+        .navs li:hover {
+            transform: rotateX(-90deg);
         }
     </style>
 </head>
@@ -45,8 +55,14 @@
 <body>
     <div class="navs">
         <ul>
+<<<<<<< HEAD
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
+=======
+            <li><a href="#">首页</a>
+                <a href="#">index</a>
+            </li>
+>>>>>>> c177ea9fb11b35b2947af2488f9bd6c3cf901bba
         </ul>
     </div>
 </body>
