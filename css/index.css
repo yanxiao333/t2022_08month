@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: url(./../images/7.jpg)no-repeat center 0;
+    /* 缩放背景图 */
+    background-size: contain;
+}
+
+/* 图片等比例缩放,当宽度或高度和盒子尺寸相等,图片就不在缩放 */
+/* 图片等比例缩放,图片完全覆盖到整个盒子,可能会导致图片显示不全 */
+/*
+1.img 引入图片,控制位置
+2.定义动画,使用动画
+*/
+.cloud img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.cloud img:nth-child(1) {
+    margin-left: -28px;
+    width: 50px;
+    top: 20px;
+    animation: cloud 1s infinite alternate;
+}
+
+.cloud img:nth-child(2) {
+    margin-left: 90px;
+    width: 77px;
+    top: 100px;
+    animation: cloud 1s infinite alternate 0.2s;
+}
+
+.cloud img:nth-child(3) {
+    margin-left: -170px;
+    top: 70px;
+    width: 40px;
+    animation: cloud 1s infinite alternate 0.4s;
+}
+
+/* 云彩动画 */
+@keyframes cloud {
+    to {
+        transform: translateX(20px);
+    }
+
+}
