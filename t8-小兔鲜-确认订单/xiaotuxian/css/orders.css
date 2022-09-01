@@ -11,6 +11,7 @@ body {
     margin-bottom: 10px;
     background-color: #fff;
     border-radius: 5px;
+    font-family: 微软雅黑;
 }
 
 /* 主体内容 */
@@ -45,7 +46,7 @@ body {
     display: flex;
 }
 
-.user_msg .user .top h5 {
+.user_msg .user .top h4 {
     width: 55px;
 }
 
@@ -64,6 +65,89 @@ body {
 
 }
 
+
+/* 商品介绍 */
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product .img {
+    width: 116px;
+    height: 128px;
+    margin-top: 10px;
+
+}
+
+.product .Products p {
+    padding: 0 10px 0 12px;
+    font-size: 14px;
+    color: #000;
+
+}
+
+.product .Products p:nth-child(3) {
+    padding: 5px 15px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.product .Products span {
+    padding: 0 10px 0 12px;
+
+}
+
+.product .num {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* 快递信息 */
+.express div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.express div:nth-child(2) {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.express div:nth-child(2) p {
+    padding: 0 20px;
+}
+
+.express div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* 产品价格 */
+.jiage div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+}
+
+.jiage div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+}
+
+.jiage div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+}
+
+
 /* 底部支付 */
 .pay {
     position: fixed;
@@ -71,7 +155,7 @@ body {
     bottom: 0;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 11px;
 
