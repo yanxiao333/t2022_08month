@@ -106,47 +106,53 @@ body {
 }
 
 /* 快递信息 */
-.express div:nth-child(1) {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.express {
+    padding: 15px;
 }
 
-.express div:nth-child(2) {
+.express div {
     display: flex;
-    justify-content: flex-start;
-    padding: 10px;
-}
-
-.express div:nth-child(2) p {
-    padding: 0 20px;
+    margin-bottom: 30px;
 }
 
 .express div:nth-child(3) {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    margin-bottom: 0;
 }
+
+/* 找到第一个和第三个div设置主轴对齐方式 */
+.express div:nth-child(2n+1) {
+    justify-content: space-between;
+}
+
+.express div:nth-child(2) p {
+    margin-left: 15px;
+}
+
+.express h5,
+.jiage h5,
+.express p {
+    font-size: 13px;
+    color: #262626;
+    /* font-weight: 400; */
+}
+
+.express div:nth-child(2) p {
+    font-size: 12px;
+    color: #989898;
+}
+
 
 /* 产品价格 */
-.jiage div:nth-child(1) {
+.jiage div {
     display: flex;
     justify-content: space-between;
-    padding: 8px 15px;
+    padding: 15px 15px;
 }
 
-.jiage div:nth-child(2) {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 15px;
-}
+.jiage span {
+    font-size: 13px;
 
-.jiage div:nth-child(3) {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 15px;
 }
-
 
 /* 底部支付 */
 .pay {
